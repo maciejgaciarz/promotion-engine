@@ -1,0 +1,26 @@
+{
+  "name": "innergy-typescript-task",
+  "version": "1.0.0",
+  "description": "Task for candidates for innergy developers",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "Innergy",
+  "devDependencies": {
+    "@types/jest": "25.2.3",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "jest": "26.0.1",
+    "ts-jest": "26.0.0",
+    "typescript": "3.9.3"
+  }
+}
